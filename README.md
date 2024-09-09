@@ -94,3 +94,42 @@ Now open the link provided by Vite in the frontend terminal (usually [http://loc
 
 ## Project Structure
 
+rooostr.ai/ │ ├── frontend/ # Frontend built with React (Vite) │ ├── src/ # React source code │ │ ├── components/ # Reusable UI components │ │ ├── pages/ # Page-level components for routes │ │ ├── services/ # API calls and Firebase interaction │ │ ├── hooks/ # Custom React hooks │ │ └── App.tsx # Main App component │ ├── public/ # Static files like images, icons, etc. │ └── vite.config.ts # Vite configuration file │ ├── backend/ # Backend built with Node.js and Express │ ├── src/ # Server-side source code │ │ ├── controllers/ # Functions for handling API requests │ │ ├── models/ # Database schemas (if using Firestore or other DB) │ │ ├── routes/ # API routes (e.g., /properties, /filters) │ │ ├── services/ # Business logic (e.g., data processing, AI models) │ │ ├── config/ # Firebase and environment configurations │ │ └── server.ts # Main server file for starting the app │ └── package.json # Backend dependencies and scripts │ ├── .gitignore # Git ignore file ├── README.md # Project documentation └── LICENSE # License file
+
+
+---
+
+## Contributing
+
+We welcome contributions! To get started:
+
+1. **Fork the repository**.
+2. **Create a new branch**:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. **Make your changes** and **commit**:
+    ```bash
+    git commit -m "Add your message here"
+    ```
+4. **Push the changes** to your fork:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+5. Open a **pull request** on the main repository.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+For any inquiries or support, please reach out to the project team at [your-email@example.com].
+
+---
+
+Join us in transforming the future of real estate investment with **Rooostr.ai**!
