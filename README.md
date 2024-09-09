@@ -122,14 +122,6 @@ We welcome contributions! To get started:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This software is proprietary and not open-source. All rights to the rooostr.ai platform, Rooostr Inc, and its associated code are reserved. Redistribution, modification, and use of the software or its components are strictly prohibited without prior written permission from Rooostr Inc.
 
----
-
-## Contact
-
-For any inquiries or support, please reach out to the project team at [your-email@example.com].
-
----
-
-Join us in transforming the future of real estate investment with **Rooostr.ai**!
+For inquiries, please contact **jatoujoseph@gmail.com**
