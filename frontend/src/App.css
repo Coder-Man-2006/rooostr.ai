@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  font-family: 'Futura PT', sans-serif;
+  background-color: #ffffff;
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: url(../../assets/graphics/wave.svg);
+  background-size: 200% 100%;
+  top: 100%;
+  left: 0;
+  animation: wave 2s linear infinite;
+  transition: 0.5s;
+}
+
+.landing-page {
+  cursor: default;
+}
+
+.landing-page button.custom-button {
+  width: 450px; /* Reduced width */
+  height: 50px; /* Reduced height */
+  background: #650304;
+  color: #FF4E11;
+  border-radius: 5mm;
+  border: none;
+  box-shadow: 3px 3px 0 #FF4E11;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-size: 18px; /* Reduced font size */
+}
+
+button.custom-button:hover .wave {
+  top: 50%;
+}
+
+.text {
+  font-size: 22px;
+  font-weight: bold;
+  z-index: 1;
+  position: relative;
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: url(../../assets/graphics/wave.svg);
+  background-size: 200% 100%;
+  top: 100%;
+  left: 0;
+  animation: wave 2s linear infinite;
+  transition: 0.5s;
+}
+
+@keyframes wave {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 200%;
+  }
+}
+
+button.custom-button:hover .wave {
+  top: 50%;
+}
+
+.landing-notification {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.landing-notification:hover {
+  transform: translateY(-10px) scale(1.05);
+  opacity: 1;
+}
+
+.landing-notification h4 {
+  font-size: 1.4rem;
+  color: #650304;
+}
+
+.landing-description p {
+  font-size: 1.5rem; 
+  width: 83%;
+  margin: 0 auto;
+  color:#650304;
+  margin-top: 1em;
+}
+
+.landing-title {
+  width: 100%;
+  max-width: 1000px; /* Increase the max-width */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.landing-title h1 {
+  font-size: 4rem;
+  line-height: 1em;
+  width: 130%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 15%;
+  color: #000;
+}
+
+.main-landing {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+  max-width: 66%;
+}
+
+.landing-button button {
+  width: 1000px;
+}
+
+@keyframes wave {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 200%;
+  }
+}

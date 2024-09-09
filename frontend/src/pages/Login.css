@@ -1,0 +1,144 @@
+/* src/Login.css */
+body {
+  background-color: #fdfdfd;
+}
+
+.wrapper-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fdfdfd;
+}
+
+.wrapper-items {
+  background-color: #ffffff;
+  padding: 3rem; /* Increased padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px; /* Increased max-width */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem; /* Increased margin-bottom */
+  color: #650304;
+  font-size: 2rem; /* Increased font-size */
+}
+
+.login-form .form-group {
+  margin-bottom: 1.5rem; /* Increased margin-bottom */
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 0.75rem; /* Increased margin-bottom */
+  color: #333;
+  font-size: 1.6rem; /* Increased font-size */
+}
+
+.login-form input {
+  width: 100%;
+  padding: 1rem; /* Increased padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.6rem; /* Increased font-size */
+  transition: all 0.3s ease-in-out; /* Add transition for smooth animation */
+}
+
+.login-form input:focus {
+  border-color: #FF4E11; /* Change border color on focus */
+  box-shadow: 0 0 8px rgba(255, 78, 17, 0.6); /* Add shadow effect */
+  transform: scale(1.02); /* Slightly scale up the input */
+}
+
+.wrapper-login .custom-button {
+  width: 100%;
+  padding: 1rem; /* Increased padding */
+  background-color: #650304;
+  color: #FF4E11;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem; /* Increased font-size */
+  margin-top: 1.5rem; /* Increased margin-top */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-login .google-button {
+  width: 100%;
+  padding: 1rem; /* Increased padding */
+  background-color: #650304;
+  color: #FF4E11;
+  fill: #FF4E11;
+  gap: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem; /* Increased font-size */
+  margin-top: 1.5rem; /* Increased margin-top */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-button .text-wrapper-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.text-wrapper-google span {
+  margin-left: 6px;
+}
+
+.google-logo {
+  width: 24px; /* Increased width */
+  height: 24px; /* Increased height */
+  margin-right: 12px; /* Increased margin-right */
+  fill: #4285F4; /* Google blue color */
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem 0; /* Increased margin */
+  font-size: 1.2rem; /* Increased font-size */
+  color: #333;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.75em; /* Increased margin */
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.75em; /* Increased margin */
+}
+
+p {
+  text-align: center;
+  margin-top: 1.5rem; /* Increased margin-top */
+  color: #333;
+  font-size: 1.2rem; /* Increased font-size */
+}
+
+p a {
+  color: #FF4E11;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
